@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
 :root {
   --color-white: #faf9f6;
@@ -14,6 +14,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 html, body {
   background-color: var(--color-black);
   height: 100%;
@@ -21,6 +25,7 @@ html, body {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -40,6 +45,7 @@ input, button, textarea, select {
 }
 
 p, h1, h2, h3, h4, h5, h6 {
+  color: var(--color-white);
   overflow-wrap: break-word;
 }
 
