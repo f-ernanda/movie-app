@@ -1,12 +1,5 @@
 .fs-header {
-    background: bottom left / cover no-repeat url("../../assets/img/bg.png");
+    background: center left / cover no-repeat url("../../assets/img/bg.png");
     padding: 4rem 2rem;
     min-height: 10vh;
-}
-
-.fs-logo {
-    color: var(--color-white);
-    font-size: 2.4rem;
-    font-variant: small-caps;
-    text-decoration: none;
 }

@@ -1,5 +1,7 @@
 import Header from "@/components/Header"
 
+import './styles.css'
+
 function Form() {
 
     const movie = {
@@ -13,21 +15,23 @@ function Form() {
     return (
         <>
             <Header/>
-            <section>
-                <img src={movie.image} alt={movie.title}/>
+            <section className="fs-form">
+                <img className="fs-form-img" src={movie.image} alt={movie.title}/>
                 <form>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" id="email"/>
-                    <label htmlFor="score">Review:</label>
-                    <select id="score">
+                    <label className="fs-form-label" htmlFor="email">Email:</label>
+                    <input className="fs-form-input" type="email" id="email" required/>
+                    <label className="fs-form-label" htmlFor="score">Review:</label>
+                    <select className="fs-form-input fs-form-select" id="score">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
                         <option value="5">5</option>
                     </select>
-                    <button type="submit">Save</button>
-                    <button type="button">Cancel</button>
+                    <div className="fs-button-container">
+                        <button className="fs-button" type="submit">Save</button>
+                        <button className="fs-button fs-button-secondary" type="button">Cancel</button>
+                    </div>
                 </form>
             </section>
         </>

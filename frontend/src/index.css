@@ -4,6 +4,7 @@
   --color-white: #faf9f6;
   --color-black: #121212;
   --color-primary: #cb504c;
+  --color-primary-light: #ff8078;
 }
 
 *,
@@ -19,7 +20,7 @@ html {
 }
 
 html, body {
-  background: var(--color-black);
+  background: linear-gradient(180deg, #525252 0%, #121212 100%);
   min-height: 100%;
 }
 
@@ -32,7 +33,7 @@ body {
 }
 
 a, button {
-  cursor: revert;
+  cursor: pointer;
 }
 
 img, picture, video, canvas, svg {

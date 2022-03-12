@@ -1,0 +1,59 @@
+.fs-form {
+    margin: 6rem auto 0;
+    max-width: fit-content;
+    padding: 2rem;
+}
+
+.fs-form-img {
+    border-radius: .5rem;
+    margin-bottom: 4rem;
+}
+
+.fs-form-label {
+    color: var(--color-white);
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.fs-form-input {
+    background: var(--color-white);
+    border-color: var(--color-white);
+    display: block;
+    margin-bottom: 4rem;
+    padding: .5rem 1rem;
+    width: 100%;
+}
+
+.fs-form-select {
+    height: 3.8rem;
+    margin-bottom: 6rem;
+}
+
+.fs-button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.6rem;
+    justify-content: center;
+}
+
+.fs-button {
+    background: var(--color-primary);
+    border: .3rem solid var(--color-primary);
+    border-radius: .5rem;
+    color: var(--color-white);
+    padding: 1rem;
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    .fs-button {
+        min-width: 20rem;
+        width: auto;
+    }
+}
+
+.fs-button-secondary {
+    background: transparent;
+    color: var(--color-primary-light);
+}
