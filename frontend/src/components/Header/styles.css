@@ -1,8 +1,7 @@
 .fs-header {
-    background: transparent;
+    background: bottom left / cover no-repeat url("../../assets/img/bg.png");
     padding: 4rem 2rem;
-    position: absolute;
-    top: 0;
+    min-height: 10vh;
 }
 
 .fs-logo {

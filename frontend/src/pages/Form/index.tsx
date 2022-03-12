@@ -1,6 +1,10 @@
+import Header from "@/components/Header"
+
 function Form() {
     return (
-        <h1>Form</h1>
+        <>
+            <Header/>
+        </>
     )
 }
 
