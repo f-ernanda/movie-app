@@ -1,0 +1,18 @@
+.fs-hero {
+    background: center left / cover no-repeat url("../../assets/img/bg.png");
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 4rem 2rem;
+}
+
+.fs-main-title {
+    font-size: 6.6rem;
+    font-weight: lighter;
+    line-height: normal;
+    max-width: 50rem;
+}
+
+.fs-title-emphasis {
+    color: var(--color-primary);
+}
