@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Form from '@/pages/Form'
 import Home from '@/pages/Home'
 
-import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
             <Route path=":movieId" element={<Form/>} />
           </Route>
         </Routes>
+        <Footer/>
     </BrowserRouter>
   )
 }
