@@ -1,0 +1,8 @@
+.fs-review-stars {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.fs-star {
+    max-width: 2.4rem;
+}

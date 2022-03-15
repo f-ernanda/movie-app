@@ -1,0 +1,28 @@
+.fs-review-info {
+    align-items: center;
+    backdrop-filter: blur(0.5rem);
+    background-color: rgba(18, 18, 18, 0.8);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    justify-content: space-evenly;
+    width: 25rem;
+}
+
+.fs-review-info-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.fs-review-count {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.fs-rating-value {
+    color: var(--color-primary-light);
+    font-size: 4.4rem;
+}
