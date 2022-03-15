@@ -10,7 +10,7 @@
     margin: 2rem auto;
 }
 
-.fs-icon {
+.fs-social {
     background-size: contain;
     display: block;
     height: 5.8rem;
@@ -32,14 +32,14 @@
     }
 }
 
-.fs-icon.linkedin {
-    background-image: url("../../assets/icons/linkedin.svg");
+.fs-social.linkedin {
+    background-image: url('../../assets/icons/linkedin.svg');
 }
 
-.fs-icon.hashnode {
-    background-image: url("../../assets/icons/hashnode.svg");
+.fs-social.hashnode {
+    background-image: url('../../assets/icons/hashnode.svg');
 }
 
-.fs-icon.github {
-    background-image: url("../../assets/icons/github.svg");
+.fs-social.github {
+    background-image: url('../../assets/icons/github.svg');
 }

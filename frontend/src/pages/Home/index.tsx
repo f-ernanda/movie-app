@@ -1,8 +1,12 @@
 import Hero from '@/components/Hero'
+import Pagination from '@/components/Pagination'
 
 function Home() {
     return (
-        <Hero/>
+        <>
+            <Hero />
+            <Pagination />
+        </>
     )
 }
 

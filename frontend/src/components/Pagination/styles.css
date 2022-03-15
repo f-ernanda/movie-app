@@ -1,0 +1,48 @@
+.fs-pagination {
+    align-items: center;
+    display: flex;
+    gap: 3.6rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.fs-page-button {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    height: 4.4rem;
+    transition: all 0.3s ease-in-out;
+    width: 4.4rem;
+}
+
+.fs-page-button:hover,
+.fs-page-button:focus {
+    transform: scale(1.2);
+}
+
+.fs-page-button:disabled {
+    cursor: unset;
+}
+
+.fs-arrow {
+    align-self: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 4.2rem;
+    margin: auto;
+    width: 2.2rem;
+}
+
+.fs-page-button:disabled .fs-arrow {
+    filter: brightness(0.4);
+}
+
+.fs-arrow.left {
+    background-image: url('../../assets/icons/arrow-left.svg');
+}
+
+.fs-arrow.right {
+    background-image: url('../../assets/icons/arrow-right.svg');
+}

@@ -1,5 +1,5 @@
 .fs-header {
-    background: center left / cover no-repeat url("../../assets/img/bg.png");
+    background: center left / cover no-repeat url('../../assets/img/bg.png');
     padding: 4rem 2rem;
     min-height: 10vh;
 }

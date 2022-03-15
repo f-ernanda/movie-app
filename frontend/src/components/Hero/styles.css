@@ -1,5 +1,5 @@
 .fs-hero {
-    background: center left / cover no-repeat url("../../assets/img/bg.png");
+    background: center left / cover no-repeat url('../../assets/img/bg.png');
     display: flex;
     flex-direction: column;
     padding: 4rem 2rem;
