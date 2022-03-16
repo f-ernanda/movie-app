@@ -2,13 +2,12 @@
     margin: 6rem auto;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
     .fs-cards-section {
         column-gap: 2rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
-        max-width: fit-content;
     }
 }
 

@@ -1,55 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
 :root {
-  --color-white: #faf9f6;
-  --color-black: #121212;
-  --color-primary: #cb504c;
-  --color-primary-light: #ff8078;
+    --color-white: #faf9f6;
+    --color-black: #121212;
+    --color-primary: #cb504c;
+    --color-primary-light: #ff8078;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
-html, body {
-  background: linear-gradient(180deg, #525252 0%, #121212 100%);
-  min-height: 100%;
+html,
+body {
+    background: linear-gradient(180deg, #525252 0%, #121212 100%);
+    min-height: 100%;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
-a, button {
-  cursor: pointer;
+a,
+button {
+    cursor: pointer;
 }
 
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
 }
 
-input, button, textarea, select {
-  font: inherit;
+input,
+button,
+textarea,
+select {
+    font: inherit;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-  color: var(--color-white);
-  overflow-wrap: break-word;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-white);
+    overflow-wrap: break-word;
 }
 
 #root {
-  isolation: isolate;
+    isolation: isolate;
 }
