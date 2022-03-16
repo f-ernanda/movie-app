@@ -1,0 +1,45 @@
+.fs-card {
+    margin: auto;
+    padding: 2rem;
+}
+
+.fs-image-container {
+    aspect-ratio: 1 / 1.25;
+    cursor: default;
+    margin-bottom: 1.6rem;
+    position: relative;
+}
+
+@media (min-width: 600px) {
+    .fs-image-container {
+        width: 25rem;
+    }
+}
+
+.fs-card-image {
+    border-radius: 0.5rem;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+}
+
+.fs-review-info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.fs-image-container:hover .fs-review-info {
+    opacity: 1;
+}
+
+.fs-movie-title {
+    margin-bottom: 1.6rem;
+    text-align: center;
+}
+
+.button-card {
+    margin-bottom: 2rem;
+}

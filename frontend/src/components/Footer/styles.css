@@ -10,6 +10,15 @@
     margin: 2rem auto;
 }
 
+.fs-social-link {
+    transition: all 0.3s ease-in-out;
+}
+
+.fs-social-link:hover,
+.fs-social-link:focus {
+    transform: scale(1.1);
+}
+
 .fs-social {
     background-size: contain;
     display: block;

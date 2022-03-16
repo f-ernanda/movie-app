@@ -1,13 +1,13 @@
 .fs-review-info {
     align-items: center;
+    aspect-ratio: 1 / 1.25;
     backdrop-filter: blur(0.5rem);
     background-color: rgba(18, 18, 18, 0.8);
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
-    height: 30rem;
     justify-content: space-evenly;
-    width: 25rem;
+    width: 100%;
 }
 
 .fs-review-info-container {

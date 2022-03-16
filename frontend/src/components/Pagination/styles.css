@@ -25,6 +25,11 @@
     cursor: unset;
 }
 
+.fs-page-button:disabled:hover,
+.fs-page-button:disabled:focus {
+    transform: scale(1);
+}
+
 .fs-arrow {
     align-self: center;
     background-size: contain;

@@ -43,14 +43,23 @@
     border-radius: 0.5rem;
     color: var(--color-white);
     padding: 1rem;
+    transition: all 0.3s ease-in-out;
     width: 100%;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
     .fs-button {
-        min-width: 20rem;
+        min-width: 25rem;
         width: auto;
     }
+}
+
+.fs-button:hover,
+.fs-button:focus {
+    background: var(--color-primary-light);
+    border-color: var(--color-primary-light);
+    color: var(--color-black);
+    font-weight: 600;
 }
 
 .fs-button-secondary {
