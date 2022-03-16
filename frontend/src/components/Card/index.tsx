@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import ReviewInfo from '@/components/ReviewInfo'
 import './styles.css'
 
@@ -18,9 +19,11 @@ function Card() {
                     <ReviewInfo />
                 </div>
                 <p className='fs-movie-title'>{movie.title}</p>
-                <button className='fs-button button-card' type='button'>
-                    Review
-                </button>
+                <Link to={`/form/${movie.id}`}>
+                    <button className='fs-button button-card' type='button'>
+                        Review
+                    </button>
+                </Link>
             </article>
         </>
     )

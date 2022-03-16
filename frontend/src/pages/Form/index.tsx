@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import Header from '@/components/Header'
 
 import './styles.css'
@@ -35,9 +37,11 @@ function Form() {
                         <button className='fs-button' type='submit'>
                             Save
                         </button>
-                        <button className='fs-button fs-button-secondary' type='button'>
-                            Cancel
-                        </button>
+                        <Link to='/'>
+                            <button className='fs-button fs-button-secondary' type='button'>
+                                Cancel
+                            </button>
+                        </Link>
                     </div>
                 </form>
             </section>
